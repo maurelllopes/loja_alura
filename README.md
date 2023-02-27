@@ -12,3 +12,6 @@
 * Criamos uma página para criar novos produtos e uma rota capaz de atender essa requisição http.HandleFunc("/new", controllers.New);
 * Buscamos os dados da página new com o código r.FormValue() para cada input (nome, descrição, preço e quantidade) no controller de produtos;
 * Salvamos o produto através do modelo de produto criando a função CriaNovoProduto().
+* Criamos um botão na linha de cada produto que assim que clicado, deletava o produto do banco de dados;
+* Para melhorar a remoção dos produtos, criamos uma função em Javascript perguntando se queremos de fato, deletar o produto;
+* Removemos o código HTML duplicado da index e do arquivo new, criando as seguintes partials: _head.html e _menu.html.
