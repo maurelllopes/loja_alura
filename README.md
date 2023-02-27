@@ -8,3 +8,7 @@
 * Instalamos o Postgres para armazenar nossos produtos de forma segura;
 * Criamos uma função chamada conectaComBancoDeDados() para abrir a conexão com o banco de dados;
 * Alteramos nosso código para exibir os produtos que estão cadastrados lá no banco de dados.
+* Modularizamos o código para tornar a manutenção e/ou atualização mais clara, criando as pastas controllers, db, models, routes e templates;
+* Criamos uma página para criar novos produtos e uma rota capaz de atender essa requisição http.HandleFunc("/new", controllers.New);
+* Buscamos os dados da página new com o código r.FormValue() para cada input (nome, descrição, preço e quantidade) no controller de produtos;
+* Salvamos o produto através do modelo de produto criando a função CriaNovoProduto().
