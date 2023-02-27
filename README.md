@@ -1,9 +1,8 @@
 # loja_alura
-## Projeto criado junto ao Curso Alura Utilizando Go
-### Aplicação Web com Go capaz de criar produtos, salvar, deletar e editar as informações desses produtos no banco de dados postgres.
+## Aplicação web capaz de ler as informações que cadastramos no banco de dados, podendo criar novos produtos editar os produtos, atualizar, e também deletar, exibindo uma mensagem de verificação, utilizando a linguagem Go. Utilizamos boas práticas, o padrão mvc, criamos um arquivo só para cuidar das rotas e o controle responsável para atender essa nossa requisição. Quando o controle precisa de uma informação do banco de dados, nós pedimos para o nosso modelo de produtos trazer as informações e conectar com o banco de dados.
+
 #### Projeto desenvolvido no Mac pois já tinha o Postgres instalado
 #### Criamos o nosso projeto no workspace correto, dentro do GOPATH (dentro da pasta src, github.com, seguido do nome de usuário do Github);
-#### Aplicação web capaz de ler as informações que cadastramos no banco de dados, podendo criar novos produtos editar os produtos, atualizar, e também deletar, exibindo uma mensagem de verificação, utilizando a linguagem Go. Utilizamos boas práticas, o padrão mvc, criamos um arquivo só para cuidar das rotas e o controle responsável para atender essa nossa requisição. Quando o controle precisa de uma informação do banco de dados, nós pedimos para o nosso modelo de produtos trazer as informações e conectar com o banco de dados.
 
 
 * Aprendemos como subir um servidor através da função http.ListenAndServe(), exibindo uma tabela com nossos produtos;
