@@ -15,3 +15,8 @@
 * Criamos um botão na linha de cada produto que assim que clicado, deletava o produto do banco de dados;
 * Para melhorar a remoção dos produtos, criamos uma função em Javascript perguntando se queremos de fato, deletar o produto;
 * Removemos o código HTML duplicado da index e do arquivo new, criando as seguintes partials: _head.html e _menu.html.
+* Criamos um botão na linha de cada produto que nos direciona para a tela de edição;
+* Após criar a tela de edição, preenchemos o formulário com as informações do produto exibindo os dados já cadastrados;
+* Atualizamos o produto, buscando os dados alterados na tela e executando o update(atualização) no banco de dados.
+
+
